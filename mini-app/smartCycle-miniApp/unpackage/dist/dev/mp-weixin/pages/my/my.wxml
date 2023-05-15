@@ -1,0 +1,1 @@
+<view><u-input wx:if="{{b}}" u-i="2d508669-0" bind:__l="__l" bindupdateModelValue="{{a}}" u-p="{{b}}"/><u-input wx:if="{{d}}" u-i="2d508669-1" bind:__l="__l" bindupdateModelValue="{{c}}" u-p="{{d}}"/><u-button wx:if="{{f}}" u-s="{{['d']}}" bindclick="{{e}}" u-i="2d508669-2" bind:__l="__l" u-p="{{f}}">登录</u-button></view>

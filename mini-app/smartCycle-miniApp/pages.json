@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/my/my",
+			"style": {
+				// "navigationBarTitleText": "",//不注销的话下面的：globalStyle ，中的text无法显示
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/run/run",
+			"style": {
+				// "navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				// "navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    
+        
+        ,{
+            "path" : "pages/parkinglot/parkinglot",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white", //导航条文本颜色
+		"navigationBarTitleText": "uni-app", //文本内容
+		"navigationBarBackgroundColor": "#eb2df8", //背景颜色
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"selectedColor": "#c00000", //选中项的文本颜色：tabBar下面的小字
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/logo.png", //未选择时候显示的图片
+				"selectedIconPath": "static/logo.png" //选择后显示的图片
+			},
+			{
+				"pagePath": "pages/run/run",
+				"text": "骑行",
+				"iconPath": "static/logo.png", //未选择时候显示的图片
+				"selectedIconPath": "static/logo.png" //选择后显示的图片
+			}, {
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/logo.png", //未选择时候显示的图片
+				"selectedIconPath": "static/logo.png" //选择后显示的图片
+			}
+
+		]
+	}
+}
